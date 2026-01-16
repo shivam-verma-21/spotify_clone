@@ -2,7 +2,8 @@
 <br>
 A fully responsive Spotify Clone built using HTML, CSS, and JavaScript.
 This project includes a complete music player with interactive controls, dynamic audio loading, and a modern dark UI inspired by Spotify.
-
+<pre>
+  
 Features
 
 Play, Pause, Next, Previous
@@ -25,3 +26,5 @@ Technologies Used
 HTML
 CSS
 JavaScript
+  </pre>
+
