@@ -1,0 +1,31 @@
+.border{
+    /* border: 2px solid red; */
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content:center ;
+}
+.rounded{
+    border-radius: 4px;
+}
+.m-1{
+    margin: 5px;
+}
+.border-card{
+     /* border: 2px solid red; */
+     padding: 10px;
+     /* background-color: red; */
+     border-radius: 5px;
+}
+.border-card:hover{
+    background-color:#1b1b1b;
+    
+}
+
+

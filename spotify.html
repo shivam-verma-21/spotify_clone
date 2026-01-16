@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/spotify-logo-24.png">
+
+
+<body>
+
+    <div class="container flex">
+        <div class="left border flex">
+            <!-- <div class="logo">
+            </div> -->
+
+            <div class="heading">
+                <div class="home ">
+                    <ul>
+                        <li><i id="menu" class='bx bx-menu'></i></li>
+                        <li></li><i class='bx bxl-spotify'></i></li>
+                        <li></li><i class='bx bxs-home'></i></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <input type="checkbox" id="check">
+                <div class="search-box">
+                    <input type="text" placeholder="Enter song name...">
+                    <label for="check" class="icon">
+                        <i class='bx bx-search'></i></ </label>
+                </div>
+            </div>
+        </div>
+        <div class="right border flex">
+
+            <div class="nav">
+                <ul>
+
+                    <li><i id="closeNav" class='bx bx-x'></i></li>
+                    <li>Premium</li>
+                    <li>Support</li>
+                    <li>Download</li>
+                    <li>|</li>
+                    <li><i class='bx bxs-download' style='color:#ffffff'></i> Install App</li>
+                    <li><button class="sign">Sign up</button></li>
+                    <li><button class="login">Log in</button></li>
+
+                </ul>
+            </div>
+            <i id="navMenu" class='bx bx-menu'></i>
+        </div>
+    </div>
+    <div class="container flex ">
+
+        <div class="left-content bg-grey rounded m-1 ">
+            <!-- <div class=""> -->
+            <div class="library">
+                <span class="lib-menu">
+                    <h2><i class='bx bx-library' style='color:#ffffff'></i> Your Library</h2>
+                    <span class="cross">
+                        <i id="cross" class='bx bx-x'></i>
+                    </span>
+                </span>
+                <div class="songsList">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="about"><a href="#">Legal</a></div>
+                <div class="about"><a href="#">Safety & Privacy Center</a></div>
+                <div class="about"><a href="#">Privacy Policy</a></div>
+                <div class="about"><a href="#">Cookies</a></div>
+                <div class="about"><a href="#">About Ads</a></div>
+                <div class="about"><a href="#">Accessibility</a></div>
+            </div>
+
+        </div>
+
+
+        <div class="right-content bg-grey rounded m-1">
+            <div class="spotifyTrends">
+                <h1>Trending songs</h1>
+                <div class="cardContainer">
+
+                </div>
+            </div>
+            <div class="playbar">
+
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songButtons flex">
+                        <i id="previous" class='bx bx-skip-previous'></i>
+                        <i id="play" class='bx bx-play'></i>
+                        <i id="next" class='bx bx-skip-next'></i>
+                    </div>
+                    <div class="time_volume flex">
+
+                        <div class="songTime">
+
+                        </div>
+                        <div class="volume flex">
+                            <i id="vol" class='bx bxs-volume'></i>
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="toastBox">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
