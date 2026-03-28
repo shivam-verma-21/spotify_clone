@@ -1,11 +1,11 @@
-# Spotify Clone – Responsive Music Player Web App
+# Spotify Clone – Responsive Music Player Web App:- 
 
 A fully responsive Spotify Clone built using HTML, CSS, and JavaScript.  
 This project includes a complete music player with interactive controls, dynamic audio loading, and a modern dark-themed UI inspired by Spotify.
 
 ---
 
-## Features
+## Features:- 
 
 - Play, Pause, Next, Previous  
 - Live seek bar  
@@ -17,7 +17,7 @@ This project includes a complete music player with interactive controls, dynamic
 
 ---
 
-## What I Learned
+## What I Learned:- 
 
 - Structuring a complete front-end web application  
 - DOM manipulation and event handling  
